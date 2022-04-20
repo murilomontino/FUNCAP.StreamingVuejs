@@ -1,0 +1,1 @@
+export const SET_MOVIES = "MOVIES/SET_MOVIES"

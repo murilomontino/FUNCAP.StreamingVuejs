@@ -1,0 +1,1 @@
+export const SET_PLAYLIST = "GENERAL/SET_PLAYLIST"

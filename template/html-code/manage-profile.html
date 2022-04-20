@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Gerenciar Perfil</title>
+   <!-- Favicon -->
+   <link rel="shortcut icon" href="images/favicon.ico" />
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="css/bootstrap.min.css" />
+   <!-- Typography CSS -->
+   <link rel="stylesheet" href="css/typography.css">
+   <!-- Style -->
+   <link rel="stylesheet" href="css/style.css" />
+   <!-- Responsive -->
+   <link rel="stylesheet" href="css/responsive.css" />
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+   <script src="initialize.js"></script>
+</head>
+
+<body>
+   <!-- loader Start -->
+   <div id="loading">
+      <div id="loading-center">
+      </div>
+   </div>
+   <!-- loader END -->
+   <!-- Header -->
+   <header id="main-header"></header>
+   <!-- Header End -->
+   <!-- MainContent -->
+   <section class="m-profile manage-p">
+      <div class="container h-100">
+         <div class="row align-items-center justify-content-center h-100">
+            <div class="col-lg-10">
+               <div class="sign-user_card">
+                  <div class="row">
+                     <div class="col-lg-2">
+                        <div class="upload_profile d-inline-block">
+                           <img src="images/user/user.jpg" class="profile-pic rounded-circle img-fluid" alt="user">
+                           <div class="p-image">
+                              <i class="ri-pencil-line upload-button"></i>
+                              <input class="file-upload" type="file" accept="image/*">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-10 device-margin">
+                        <div class="profile-from">
+                           <h4 class="mb-3">Gerenciar Perfil</h4>
+                           <form class="mt-4" action="index.html">
+                              <div class="form-group">
+                                 <label>Nome</label>
+                                 <input type="text" class="form-control mb-0" id="exampleInputl2"
+                                    placeholder="Digite seu Nome" autocomplete="off" required>
+                              </div>
+                              <div class="form-group">
+                                 <label>Data de Aniversário</label>
+                                 <input type="text" class="form-control date-input basicFlatpickr mb-0"
+                                    placeholder="Selecione uma Data" id="exampleInputPassword2" required>
+                              </div>
+                              <div class="form-group d-flex flex-md-row flex-column">
+                                 <div class="iq-custom-select d-inline-block manage-gen">
+                                    <select name="cars" class="form-control pro-dropdown">
+                                       <option value="female">Feminino Cis/Trans</option>
+                                       <option value="male">Masculino Cis/Trans</option>
+                                       <option value="male">Não-Binário</option>
+                                       <option value="male">Não Desejo Informar</option>
+                                    </select>
+                                 </div>
+                                
+                              </div>
+                              <div class="d-flex">
+                                 <a href="#" class="btn btn-hover">Salvar</a>
+                                 <a href="#" class="btn btn-link">Cancelar</a>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Footer Start -->
+   <footer id="footer" class="footer-one iq-bg-dark"></footer>
+   <!-- MainContent End-->
+   <!-- back-to-top -->
+   <div id="back-to-top">
+      <a class="top" href="#top" id="top"> <i class="fa fa-angle-up"></i> </a>
+   </div>
+   <!-- back-to-top End -->
+   <!-- jQuery, Popper JS -->
+   <script src="js/jquery-3.4.1.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <!-- Bootstrap JS -->
+   <script src="js/bootstrap.min.js"></script>
+   <!-- Slick JS -->
+   <script src="js/slick.min.js"></script>
+   <!-- owl carousel Js -->
+   <script src="js/owl.carousel.min.js"></script>
+   <!-- select2 Js -->
+   <script src="js/select2.min.js"></script>
+   <!-- Magnific Popup-->
+   <script src="js/jquery.magnific-popup.min.js"></script>
+   <!-- Flatpickr JavaScript -->
+   <script src="js/flatpickr.min.js"></script>
+   <!-- Slick Animation-->
+   <script src="js/slick-animation.min.js"></script>
+   <!-- Custom JS-->
+   <script src="js/custom.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+/* 
+
+Padronização do card-container, das abas do template das opções AdminPages e MapaCulturalPages
+
+  FALTA RESPONSIVIDADE PARA TELAS MENORES
+
+*/
+
+.card-container {
+  background: #f2f2f2 !important;
+  -webkit-border-radius:
+    5px;
+  -moz-border-radius:
+    5px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  border: none;
+  min-height: 100vh !important;
+
+  h1 {
+    color: black;
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding: 0px !important;
+    width: 100% !important;
+    overflow: auto !important;
+  }
+}
+
+.card-container hr {
+  margin: 0px !important;
+  margin-bottom: 2px !important;
+  border-top: 1px solid #c2d2c2;
+
+}
+
+.iq-header-title h4 {
+  color: #212121 !important;
+  font-size: 3vh;
+  margin-top: 5px;
+
+  @media only screen and (max-width: 768px) {
+    padding: 10px !important;
+  }
+}
+
+.custom-card-content {
+  height: 100%;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.custom-tab-nav-items-custom-card {
+  background-color: #f2f2f2 !important;
+}
+
+.custom-card-info {
+  z-index: 99;
+  justify-content: center !important;
+}
+
+.iq-custom-card-bar .custom-card-color-custom {
+  background-color: #fff !important;
+  color: rgb(79, 79, 79) !important;
+  font-weight: bold !important;
+}
+
+.custom-card-color-custom::-moz-placeholder {
+  color: #afafaf !important;
+  font-weight: bold;
+}
+
+.custom-card-color-custom::-webkit-input-placeholder {
+  color: #afafaf !important;
+  font-weight: bold;
+
+}
+
+.custom-card-color-custom::-ms-input-placeholder {
+  color: #afafaf !important;
+  font-weight: bold;
+}
+
+.overview-tab-custom:before {
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 40vh !important;
+  z-index: 1;
+}
+
+.card-title-custom {
+  color: #a7a7a7 !important;
+}
+
+
+/*
+@media screen and (min-width: 576px)  {
+  .children-custom-card-css{
+    width: 100vh;
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 768) and (min-width: 577)  {
+  .children-custom-card-css{
+    width: 100vh;
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 992) and (min-width: 769)  {
+  .children-custom-card-css{
+    width: 150vh;
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 1200) and (min-width: 992 )  {
+  .children-custom-card-css{
+    width: 100vh;
+    height: 100vh;
+  }
+} */

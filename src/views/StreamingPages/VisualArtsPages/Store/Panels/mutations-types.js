@@ -1,0 +1,1 @@
+export const SET_CIRCUS = "CIRCUS/SET_CIRCUS"
